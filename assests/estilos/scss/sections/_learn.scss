@@ -1,0 +1,31 @@
+
+#learn_online{
+    padding: 65px 0;
+    p{
+        text-align: center;
+    }
+
+    .swiper-container{
+        margin-top: 70px;
+    }
+    .swiper-button{
+        background-color: #000;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        color: #fff;
+    }
+
+    .swiper-slide{
+        img{
+            height: 100%;
+            width: 100%;
+            display: block;
+            object-fit: cover;
+        }
+
+    }
+    
+}

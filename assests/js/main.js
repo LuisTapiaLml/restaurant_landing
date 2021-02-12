@@ -12,4 +12,22 @@ var swiper = new Swiper('.swiper-container', {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
+    breakpoints : {
+      450: {
+        slidesPerView: 1,
+        spaceBetween: 0,
+      },
+      640: {
+        slidesPerView: 1,
+        spaceBetween: 0,
+      },
+      780: {
+        slidesPerView: 2,
+        spaceBetween: 40,
+      },
+      1100: {
+        slidesPerView: 3,
+        spaceBetween: 50,
+      },
+    }
   });

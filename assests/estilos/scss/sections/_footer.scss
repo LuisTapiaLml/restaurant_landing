@@ -1,0 +1,40 @@
+
+footer{
+    padding: 40px 0;
+    background-color: #333333;
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+
+    img{
+        width: 150px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    *{
+        color: #cacaca!important;
+        font-size: .8rem;
+        border:none!important;
+    }    
+
+    .link{
+        margin: 0 15px;
+        text-transform: capitalize;
+        &:hover{
+            border-bottom: 1px solid #cacaca!important;
+        }
+    }
+
+    .redes{
+        i{
+            font-size: 1rem;
+            margin: 0 5px;
+        }
+    }
+   
+}

@@ -1,0 +1,71 @@
+
+
+#dessets_drinks{
+    
+    background-image: url("../../img/ed-min.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 740px;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        padding: 140px 0;
+    }
+
+    #dessets_drinks_container{
+        width: 565px;
+        justify-self: flex-end;
+        justify-content: space-between;
+        flex-wrap:wrap;
+
+
+        .dessets_drinks_item{
+            width: 175px;
+           
+            padding: 55px 25px;
+            background-color: rgba(0,0,0,.5);
+            margin-bottom: 20px;
+            color: white;
+            text-align: center;
+           
+        }
+
+        svg{
+            height: 50px;
+            fill: white;
+            display: block;
+            margin: 0 auto;
+        }
+
+        
+    }
+    p{
+        width: 100%;
+        text-align: right;
+        color: white;
+    }
+
+    .link{
+        border-bottom-color: #fff;
+        color: white;
+    }
+}
+
+
+@media (max-width:780px){
+    #dessets_drinks{
+        height: fit-content;
+        
+        .container{
+            padding: 50px 0px;
+        }
+
+    }
+
+    #dessets_drinks_container{
+        justify-content: center!important;
+    }
+    
+}
